@@ -1,0 +1,13 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+build/
+
+
+
+
+
+
+
+./wrk -t1 -c1 -d2s -L "https://ys0izfj5h2.execute-api.us-east-1.amazonaws.com/metrics?user_id=8"

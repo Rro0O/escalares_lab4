@@ -1,0 +1,7 @@
+aws_region        = "us-east-1"
+project_name      = "dashboard-metrics"
+environment       = "dev"
+cache_ttl_seconds = 300
+
+# En AWS Academy no se pueden crear roles IAM:
+# existing_lambda_role_name = "LabRole"

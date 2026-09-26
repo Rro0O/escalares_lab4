@@ -1,0 +1,4 @@
+# Dependencias puras de Python (no requieren compilar para arm64).
+# boto3 ya viene incluido en el runtime de Lambda.
+pg8000==1.31.2
+redis==5.2.1
